@@ -203,3 +203,75 @@
   .content-5 h2{
     margin-left:50px;
   }
+
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 40px;
+      white-space: normal;
+    }
+  
+    .content,
+    .content-2,
+    .content-3,
+    .images {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-me p,
+    .left-col-2,
+    .right-col-3,
+    .content-5 {
+      margin-left: 0;
+      margin-right: 0;
+      width: 90%;
+    }
+  
+    .right-column img,
+    .right-col-2 img,
+    .left-col-3 img,
+    .img1, .img2, .img3 {
+      width: 90%;
+      margin: 10px auto;
+      float: none;
+    }
+  
+    .friends {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .friends img {
+      margin: 0;
+      width: 200px;
+    }
+  
+    .friends p {
+      font-size: 18px;
+    }
+  
+    .right-col-2,
+    .left-col-3 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .right-col-2 p,
+    .left-col-3 p {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .content-5 {
+      margin-left: 0;
+      width: 90%;
+    }
+  }
+  
