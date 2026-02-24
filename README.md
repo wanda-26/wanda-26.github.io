@@ -1,1 +1,1 @@
-# wanda-26.github.io
+# https://wanda-26.github.io/
